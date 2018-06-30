@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    android:background="@android:color/transparent"
+    tools:context=".aHighestScoreActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score:"
+        android:id="@+id/testScore"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="12dp"
+        android:paddingBottom="24dp"
+        android:background="@android:color/holo_orange_light"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Highest Score:"
+        android:paddingBottom="24dp"
+        android:layout_marginBottom="12dp"
+        android:background="@android:color/holo_green_light"
+        android:id="@+id/testHighestSCore"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:onClick="onClick"/>
+</LinearLayout>

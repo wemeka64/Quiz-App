@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    tools:context=".MainActivity">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="48dp"
+    android:padding="8dp"
+    android:layout_weight="1"
+    android:background="@android:color/darker_gray">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Score"
+        android:textSize="24sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/score"
+        android:textSize="24sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"/>
+</RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/question"
+        android:text="By default in Android Studio during app development, the file that holds information about app's fundamental features and components is?"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:layout_marginBottom="48dp"
+        android:layout_weight="2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice1"
+        android:text="AndroidManifest.xml"
+        android:padding="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice2"
+        android:text="res/values"
+        android:padding="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/choice3"
+        android:text="Build.gradle"
+        android:padding="8dp"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginBottom="24dp"
+        android:layout_weight="1"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
